@@ -1,0 +1,262 @@
+
+body {
+    color: #434455; 
+    background-color:  #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+/* Common styles */
+
+/* Base style */
+
+/* Default values */
+/* font-weight:400;
+font-size:16px;
+font-style: normal;
+color: black;
+background-color: #FFFFFF; */
+
+li,div {
+list-style-type: none;
+}
+
+/*--header */
+.header {
+
+}
+.header-nav {
+border-bottom:  #E7E9FC;
+background: #FFF;   
+}
+.header-logo {
+color:#4D5AE5;
+font-family: Raleway,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.logo-dark {
+color: #2E2F42;
+font-family: Raleway,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-list {
+} 
+.header-items {
+}
+.header-link-st {
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-link-st:hover,
+.header-link-st:active {
+color: #404BBF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-link {
+color: #2E2F42;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+}
+.header-link:hover {
+color: #404BBF;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
+.header-address {
+
+}
+.header-address-items {
+
+}
+.header-email {
+ color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-email:hover {
+color: #404BBF;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-phone {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-phone:hover {
+color: #404BBF;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+};
+
+/* main */
+/* section-hero */
+/* region */
+ .hero {
+background:  #2E2F42;
+} 
+.div-hero {
+   background:  #2E2F42; 
+}
+ .hero-title {
+background-color: #2E2F42;
+color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+ .hero-button {
+color: #FFFFFF;
+border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+ button:hover {
+color: #FFFFFF;
+background-color: #404BBF;
+ }
+ /* endregion */
+/* region */
+/* section-service */
+.service {
+background: #FFF;
+}
+.service-list {
+}
+.servis-items {
+}
+.service-caption {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em; 
+}
+.service-desc {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+ /* endregion */
+/* section-team */
+.team {
+    background-color: #F4F4FD;
+}
+.team-wrapper {
+}
+.team-items {
+}
+.team-pic {
+}
+.team-title {
+color: #2E2F42;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em;
+}
+.team-descr {
+text-align: center;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* section-port */
+.port {
+    background-color:#FFF;
+}
+.port-title {
+color:#2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.port-list {
+}
+.port-items {
+}
+.port-pic {
+}
+.port-caption {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em;
+}
+.port-desc {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* footer*/
+.foot {
+ background-color: #2E2F42;
+}
+.logo-ligh {
+color: #F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+.foot-logo {
+color: #4D5AE5;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em
+text-transform: uppercase;
+}
+.foot-social {
+background-color: #2E2F42;
+color: #F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+}
+.foot-social {
+}
+.foot-list {
+}
+.foot-items {
+}
+.foot-link {
+}
+.socials-icon {
+}
+.foot-caption {
+color: #F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
