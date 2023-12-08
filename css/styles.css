@@ -24,13 +24,12 @@ ol {
 /*--header */
 .header {
 
-
 }
 .header-nav {
-background: #FFF;   
+
 }
 .logo-dark {
-color: #4D5AE5;
+color: #2E2F42;
 font-family: Raleway,sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -39,7 +38,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo {
-color: #2E2F42;
+color: #4D5AE5;
 font-family: Raleway,sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -59,7 +58,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .header-link:hover,
-.header-link:active {
+.header-link:focus {
 color: #404BBF;
 }
 
@@ -67,22 +66,21 @@ color: #404BBF;
 
 }
 .header-address {
-font-style: normal
+
 }
 .header-address-items {
-
 }
 .header-details {
- color: #434455;
+color: #434455;
 font-size: 16px;
 line-height: 1.5;
-font-style: normal
-letter-spacing: 0.02em;
+font-style: normal;
+letter-spacing : 0.02em;  
 }
-.header-details:hover {
+.header-details:hover,
+.header-details:focus {
 color: #404BBF;
 }
-
 /* main */
 /* section-hero */
 /* region */
@@ -110,7 +108,8 @@ line-height: 1.5;
  letter-spacing: 0.04em;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
- .hero-button:hover {
+ .hero-button:hover
+ .hero-button:focus {
 color: #FFFFFF;
 background-color: #404BBF;
 
