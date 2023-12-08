@@ -1,6 +1,6 @@
-
+/* Base styles */
 body {
-color: #434455; 
+color: #2E2F42; 
 background-color:  #FFFFFF;
 font-family: "Roboto", sans-serif;
 font-style: normal
@@ -29,12 +29,12 @@ ol {
 color: #4d5ae5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
+font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-dark {
-color: #2E2F42;
 font-family: Raleway,sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -56,7 +56,7 @@ text-transform: uppercase;
 .header-items {
 }
 .header-link {
-color: #2E2F42;
+color: #434455;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -79,8 +79,8 @@ color: #404BBF;
 color: #434455;
 font-size: 16px;
 line-height: 1.5;
-font-style: normal;
-letter-spacing : 0.02em;  
+letter-spacing : 0.02em;
+font-style: normal  
 }
 .header-details:hover,
 .header-details:focus {
