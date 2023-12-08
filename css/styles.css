@@ -162,12 +162,13 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .team-wrapper {
-background-color: #F4F4FD
+background-color: #F4F4FD;
 }
 .team-items {
-background-color: #FFFFFF
+
 }
 .team-pic {
+background-color: #FFFFFF;
 }
 .team-title {
 color: #2E2F42;
@@ -208,14 +209,14 @@ color: #FFFFFF
 color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.11;
+line-height: 1.2;
 letter-spacing: 0.02em;
 
 }
 .port-desc {
 color: #434455;
 font-size: 16px;
-line-height: 1.2;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
