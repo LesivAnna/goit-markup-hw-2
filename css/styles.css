@@ -17,6 +17,7 @@ background-color: #FFFFFF; */
 
 /*--header */
 .header {
+color: #404bbf 
 
 }
 .header-nav {
@@ -45,39 +46,26 @@ text-transform: uppercase;
 } 
 .header-items {
 }
-.header-link-st {
-color: #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-.header-link-st:hover,
-.header-link-st:active {
-color: #404BBF;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
 .header-link {
 color: #2E2F42;
 font-size: 16px;
+font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 }
-.header-link:hover {
+.header-link:hover,
+.header-link:active {
 color: #404BBF;
 font-size: 16px;
+font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 .details {
 
 }
 .header-address {
-
+font-style: normal
 }
 .header-address-items {
 
@@ -87,7 +75,7 @@ letter-spacing: 0.32px;
 font-size: 16px;
 line-height: 1.5;
 font-style: normal
-letter-spacing: 0.02em;
+
 }
 .header-email:hover {
 color: #404BBF;
@@ -100,7 +88,7 @@ color: #434455;
 font-size: 16px;
 line-height: 1.5;
 font-style: normal
-letter-spacing: 0.02em;
+
 }
 .header-phone:hover {
 color: #404BBF;
