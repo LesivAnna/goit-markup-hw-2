@@ -1,9 +1,9 @@
 
 body {
-    color: #434455; 
-    background-color:  #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-style: normal
+color: #434455; 
+background-color:  #FFFFFF;
+font-family: "Roboto", sans-serif;
+font-style: normal
 }
 /* Common styles */
 
@@ -26,7 +26,12 @@ ol {
 
 }
 .header-nav {
-
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .logo-dark {
 color: #2E2F42;
@@ -194,19 +199,20 @@ letter-spacing: 0.02em;
 }
 .logo-ligh {
 color: #F4F4FD;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .foot-logo {
 color: #4D5AE5;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .foot-social {
