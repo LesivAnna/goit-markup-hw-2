@@ -15,6 +15,11 @@ font-style: normal;
 color: black;
 background-color: #FFFFFF; */
 
+/* Reset styles */
+ul,
+ol {
+  list-style-type: none;
+}
 /*--header */
 .header {
 color: #404bbf 
@@ -56,11 +61,8 @@ letter-spacing: 0.02em;
 .header-link:hover,
 .header-link:active {
 color: #404BBF;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
+
 .details {
 
 }
@@ -70,32 +72,17 @@ font-style: normal
 .header-address-items {
 
 }
-.header-email {
+.header-details {
  color: #434455;
 font-size: 16px;
 line-height: 1.5;
 font-style: normal
 
 }
-.header-email:hover {
+.header-details:hover {
 color: #404BBF;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
-.header-phone {
-color: #434455;
-font-size: 16px;
-line-height: 1.5;
-font-style: normal
 
-}
-.header-phone:hover {
-color: #404BBF;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-};
 
 /* main */
 /* section-hero */
