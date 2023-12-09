@@ -15,15 +15,6 @@ color: black;
 background-color: #FFFFFF; */
 
 /* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-h6 {
-  margin: 0;
-}
 a {
   color: currentColor;
   text-decoration: none;
@@ -44,7 +35,6 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 h3 {
   color: #2e2f42;
@@ -90,27 +80,27 @@ p {
 }
 
 address {
-  font-style: normal;
+font-style: normal;
 }
 .header-address {
 }
 .header-address-items {
 }
 .header-details {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .header-details:hover,
 .header-details:focus {
-  color: #404bbf;
+color: #404bbf;
 }
 /* main */
 /* section-hero */
 /* region */
 .hero {
-  background-color: #2e2f42;
+background-color: #2e2f42;
 }
 .div-hero {
 }
