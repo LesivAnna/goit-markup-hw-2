@@ -1,9 +1,27 @@
 /* Base styles */
 body {
- 
+color: #434455;
 background-color:  #FFFFFF;
 font-family: "Roboto", sans-serif;
 font-style: normal
+}
+/* Base style */
+
+/* Default values */
+/* font-weight:400;
+font-size:16px;
+font-style: normal;
+color: black;
+background-color: #FFFFFF; */
+
+/* Reset styles */
+ul,
+ol {
+list-style-type: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 h2 {
 color:  #2E2F42;
@@ -27,20 +45,6 @@ letter-spacing: 0.02em;
 }
 /* Common styles */
 
-/* Base style */
-
-/* Default values */
-/* font-weight:400;
-font-size:16px;
-font-style: normal;
-color: black;
-background-color: #FFFFFF; */
-
-/* Reset styles */
-ul,
-ol {
-list-style-type: none;
-}
 /*--header */
 .head {
 color: #4D5AE5;
