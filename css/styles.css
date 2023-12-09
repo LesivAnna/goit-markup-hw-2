@@ -138,6 +138,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 /* section-service */
 .service {
 background: #FFF;
+width: 1440px;
+height: 3300px;
 }
 .service-list {
 }
