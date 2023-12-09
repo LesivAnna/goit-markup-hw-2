@@ -5,6 +5,29 @@ background-color:  #FFFFFF;
 font-family: "Roboto", sans-serif;
 font-style: normal
 }
+h2 {
+ color:  #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;   
+}
+h3 {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+p {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 /* Common styles */
 
 /* Base style */
@@ -32,18 +55,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-nav {
-
 }
+
 .logo-dark {
 color: #2E2F42;
 }
 
 .header-list {
-color: #434455; 
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
 } 
 .header-items {
 }
@@ -79,10 +97,12 @@ color: #404BBF;
 /* section-hero */
 /* region */
  .hero {
-background: #2E2F42;
+background-color: #2E2F42;
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
 } 
 .div-hero {
-   background: #2E2F42; 
 }
  .hero-title {
 background-color:#2E2F42;
@@ -99,9 +119,8 @@ border-radius: 4px;
 background: #4D5AE5;
 font-weight: 500;
 line-height: 1.5;
- letter-spacing: 0.04em;
+letter-spacing: 0.04em;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-cursor: pointer
 }
  button:hover,
  button:focus {
@@ -120,29 +139,13 @@ background: #FFF;
 .servis-items {
 }
 .service-caption {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em; 
 }
 .service-desc {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
  /* endregion */
 /* section-team */
 .team {
-color:  #2E2F42;
 background-color: #F4F4FD;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
 }
 .team-wrapper {
 
@@ -165,32 +168,14 @@ height: 260px;
 
 }
 .team-title {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
 }
 .team-descr {
-color: #434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 /* section-port */
 .port {
 
 }
 .port-title {
-color:  #2E2F42;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
 }
 .port-list {
 color: #FFFFFF
@@ -200,18 +185,8 @@ color: #FFFFFF
 .port-pic {
 }
 .port-caption {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-
 }
 .port-desc {
-color: #434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
 /* footer*/
@@ -254,8 +229,4 @@ letter-spacing: 0.03em;
 .socials-icon {
 }
 .foot-caption {
-color: #F4F4FD;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
