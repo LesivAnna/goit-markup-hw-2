@@ -20,8 +20,8 @@ ol {
 list-style-type: none;
 }
 a {
-  color: currentColor;
-  text-decoration: none;
+color: currentColor;
+text-decoration: none;
 }
 h2 {
 color:  #2E2F42;
@@ -109,7 +109,6 @@ background-color: #2E2F42;
  .hero-title {
 background-color:#2E2F42;
 color: #FFF;
-text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
@@ -117,7 +116,6 @@ letter-spacing: 0.02em;
 }
  button {
 color: #FFFFFF;
-border-radius: 4px;
 background: #4D5AE5;
 font-weight: 500;
 line-height: 1.5;
@@ -126,7 +124,6 @@ cursor: pointer;
 }
  button:hover,
  button:focus {
-border-radius: 4px;
 background-color: #404BBF;
 }
  /* endregion */
@@ -154,7 +151,6 @@ background-color: #F4F4FD;
 .team-items {
 background-color: #FFFFFF;
 background: #FFF;
-align-items: center;
 }
 .team-pic {
 }
