@@ -15,6 +15,20 @@ color: black;
 background-color: #FFFFFF; */
 
 /* Reset styles */
+h1,h2,h3,h4,h5,p,h6 {
+margin: 0;
+}
+ul,
+ol {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+a {
+color: currentColor;
+text-decoration: none;
+}
+
 ul,
 ol {
 list-style-type: none;
@@ -30,7 +44,8 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-transform: capitalize;   
+text-transform: capitalize; 
+margin-bottom: 72px;  
 }
 h3 {
 color: #2E2F42;
@@ -44,6 +59,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* Common styles */
+.container {
+width: 1158px;
+padding-left: 15;
+padding-right: 15;
+margin-left: auto;
+margin-right: auto;
+
+outline: 2px solid red;
+outline: -2px;
+}
 
 /*--header */
 .logo {
@@ -54,14 +79,12 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+width: 44px;
 }
-.header-nav {
-}
-
 .logo-dark {
 color: #2E2F42;
+width: 71px;
 }
-
 .header-list {
 } 
 .header-items {
@@ -103,6 +126,7 @@ color: #404BBF;
 /* region */
  .hero {
 background-color: #2E2F42;
+
 } 
 .div-hero {
 }
@@ -110,10 +134,14 @@ background-color: #2E2F42;
 background-color:#2E2F42;
 color: #FFF;
 text-align: center;
+width: 496px;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+margin-bottom: 292px;
+margin-left: auto;
+margin-right: auto;
 }
  button {
 color: #FFFFFF;
@@ -122,6 +150,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+margin-bottom: 188px;
+margin-left: auto;
+margin-right: auto;
 }
  button:hover,
  button:focus {
@@ -138,8 +169,11 @@ background: #FFF;
 .servis-items {
 }
 .service-caption {
+width: 264px;
 }
 .service-desc {
+width: 264px;
+margin-bottom: 160px;
 }
  /* endregion */
 /* section-team */
@@ -156,8 +190,10 @@ background: #FFF;
 .team-pic {
 }
 .team-title {
+  
 }
 .team-descr {
+  
 }
 /* section-port */
 .port {
@@ -178,7 +214,8 @@ background: #FFF;
 
 /* footer*/
 .foot {
- background-color: #2E2F42;
+background-color: #2E2F42;
+height: 312px;
 }
 .logo-ligh {
 color: #F4F4FD;
@@ -197,6 +234,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+width: 44px;
 }
 .foot-social {
 background-color: #2E2F42;
@@ -204,6 +242,7 @@ color: #F4F4FD;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.03em;
+width: 71px;
 }
 .foot-social {
 }
@@ -217,4 +256,5 @@ letter-spacing: 0.03em;
 }
 .foot-caption {
 color: #F4F4FD;
+width: 264px;
 }
