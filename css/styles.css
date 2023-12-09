@@ -65,6 +65,7 @@ color: #2E2F42;
 .header-list {
 } 
 .header-items {
+font-size:16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
